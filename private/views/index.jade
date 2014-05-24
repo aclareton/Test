@@ -1,0 +1,18 @@
+doctype html
+html(lang='fr', ng-app="Application", ng-controller='applicationController')
+
+	head
+		title XMA Skeleton
+		meta(charset='utf-8')
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no")
+		meta(name="author", content="fmathey81@gmail.com (François Mathey)")
+		link(href='/css/main.css', rel='stylesheet')
+		script(src='/js/core.js', type='text/javascript')
+		script(src='/js/main.js', type='text/javascript')
+
+	body
+		-for(var i=0;i<10;i++)
+			div
+				h3 toto
+				a(href='http://placehold.it/350x150')
+					img(src='http://placehold.it/350x150')

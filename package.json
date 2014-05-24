@@ -1,0 +1,19 @@
+{
+  "name": "xma-skeleton",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "*",
+    "express.io": "*",
+    "jade": "*",
+    "gulp": "*",
+    "gulp-uglify": "*",
+    "gulp-plumber": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "gulp-jade": "*"
+  }
+}
